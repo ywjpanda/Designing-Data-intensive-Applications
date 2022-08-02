@@ -5,7 +5,20 @@
 | :-----:| :----: | :----: |:----: |
 |ch1|可靠、可扩展与可维护的应用系统|2022-07-25|2022-07-31|
 |ch1|数据模型与查询语言|2022-08-01||
- 
+
+```mermaid
+gantt
+	dateFormat YYYY
+	axisFormat %Y
+	title reading time line
+	section ch2
+	0801: done,0033,0045
+	0802: done,0045,0050
+```
+	
+
+
+
 ```mermaid
 gantt
     todayMarker off
