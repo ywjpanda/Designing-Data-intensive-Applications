@@ -13,7 +13,7 @@ gantt
 	title reading time line
 	section ch2
 	0801: done,0033,0045
-	0802: done,0045,0050
+	0802: done,0045,0069
 ```
 	
 
@@ -25,8 +25,9 @@ gantt
     title Reading Timeline
     dateFormat  YYYY-MM-DD
     section DDAP
-    ch1 : done,   des1, 2022-07-25,7d
-    ch2 : active, des2, after des1,10d
+    ch1 : done, des1, 2022-07-25,2022-07-31
+    ch2 : done, des2, after des1,2022-08-02
+    ch3 : active, des3, after des2, 10d
 ```
 
  
