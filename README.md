@@ -15,6 +15,7 @@ gantt
 	section ch2
 	0801: done,0033,0045
 	0802: done,0045,0069
+	0803: done,0070,0085
 ```
 	
 
@@ -31,4 +32,25 @@ gantt
     ch3 : active, des3, after des2, 10d
 ```
 
- 
+```mermaid
+gantt
+	dateFormat YYYY
+	axisFormat %Y
+	title reading time line
+	process: crit,0001,0085
+	section section 1
+	ch1: done,0001,0032
+	ch2: done,0033,0070
+	ch3: active,0071,0108
+	ch4: 0109,0144
+	section section 2
+	ch5: 0145,0188
+	ch6: 0189,0210
+	ch7: 0211,0258
+	ch8: 0259,0302
+	ch9: 0303,0366
+	section section 3
+	ch10: 0367,0412
+	ch11: 0413,0460
+	ch12: 0461,0520
+```
