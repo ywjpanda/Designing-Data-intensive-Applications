@@ -17,9 +17,19 @@ gantt
 	0802: done,0045,0069
 	0803: done,0070,0085
 ```
-	
 
-
+```mermaid
+gantt
+	dateFormat YYYY
+	axisFormat %Y
+	title El Amor En Los Tiempos Del Colera
+	process: crit,0001,0194
+	pages:0001,0294
+	0801: done,0100,0125
+	0802: done,0125,0150
+	0803: done,0150,0175
+	0804: done,0175,0194
+```
 
 ```mermaid
 gantt
@@ -54,3 +64,5 @@ gantt
 	ch11: 0413,0460
 	ch12: 0461,0520
 ```
+
+
